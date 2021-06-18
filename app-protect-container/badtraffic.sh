@@ -1,5 +1,5 @@
 #!/bin/bash
-APPHOST=10.1.20.2
+APPHOST=127.0.0.1
 curl -H "1.2.3.4" http://$APPHOST
 curl http://$APPHOST/%09
 curl http://$APPHOST/index.bak
